@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 5px;
+    text-align: center;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.email {
+    font-size: 20px;
+    color: #666;
+}
+
+.experience {
+    margin-left: 300px;
+}
+
+.projects {
+    margin-left: auto; /* Align to the right */
+    margin-right: 20px; /* Add some margin to separate from the experience section */
+}
+
+.job-title {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.job-description {
+    font-size: 18px;
+}
