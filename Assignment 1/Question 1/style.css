@@ -6,35 +6,90 @@ body {
 
 header {
     background-color: #f2f2f2;
-    padding: 5px;
-    text-align: center;
+    padding: 20px;
+    margin-right: 650px;
+    margin-left: 300px;
 }
 
 .name {
     font-size: 40px;
     font-weight: bold;
+    text-align: right;
 }
 
-.email {
+.items {
     font-size: 20px;
     color: #666;
+    text-align: left;
+    position: relative;
+    bottom: 45px;
 }
 
-.experience {
-    margin-left: 300px;
+.lists {
+    font-weight: bold; 
+    color: #666;
+    font-size: large;
+}
+
+.link {
+    text-decoration: none;
+    /* Default link color */
+    color: #0000EE;
+}
+
+.link:hover {
+    /* Link color when hovered on */
+    color: #FFA500; /* You can change this color as per your preference */
+}
+
+.link:active {
+    /* Link color when clicked */
+    color: #FF0000; /* You can change this color as per your preference */
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: right; 
+    margin-left: 20px;
+}
+
+
+.experiences {
+    /* margin-left: 300px; */
+    font-size: medium;
+
 }
 
 .projects {
-    margin-left: auto; /* Align to the right */
-    margin-right: 20px; /* Add some margin to separate from the experience section */
+    /* margin-left: 300px; */
+    font-size: medium;
+
 }
 
-.job-title {
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
+.educations {
+    /* margin-left: 350px; */
+    position: relative;
+    left: 600px;
+    /* position: relative; */
+    bottom: 550px;
+    font-size: large;
+
 }
 
-.job-description {
-    font-size: 18px;
+.skills {
+    /* margin-left: 350px; */
+    position: relative;
+    left: 600px;
+    position: relative;
+    bottom: 550px;
+    font-size: large;
+}
+
+.contents {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-right: 650px;
+    margin-left: 300px;
 }
