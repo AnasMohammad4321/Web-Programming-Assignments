@@ -1,4 +1,3 @@
-// script.js
 const form = document.getElementById('jobForm');
 const viewTableBtn = document.getElementById('viewTableBtn');
 const applicationTable = document.getElementById('applicationTable');
@@ -48,6 +47,5 @@ viewTableBtn.addEventListener('click', () => {
     const coverLetterCell = row.insertCell(4);
     coverLetterCell.innerHTML = application.coverLetter;
 
-    // Add more table cells as needed
   });
 });

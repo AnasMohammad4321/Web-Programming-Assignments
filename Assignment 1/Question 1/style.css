@@ -33,18 +33,15 @@ header {
 
 .link {
     text-decoration: none;
-    /* Default link color */
     color: #0000EE;
 }
 
 .link:hover {
-    /* Link color when hovered on */
-    color: #FFA500; /* You can change this color as per your preference */
+    color: #FFA500; 
 }
 
 .link:active {
-    /* Link color when clicked */
-    color: #FF0000; /* You can change this color as per your preference */
+    color: #FF0000; 
 }
 
 .profile-img {
@@ -57,29 +54,23 @@ header {
 
 
 .experiences {
-    /* margin-left: 300px; */
     font-size: medium;
-
 }
 
 .projects {
-    /* margin-left: 300px; */
     font-size: medium;
 
 }
 
 .educations {
-    /* margin-left: 350px; */
     position: relative;
     left: 600px;
-    /* position: relative; */
     bottom: 550px;
     font-size: large;
 
 }
 
 .skills {
-    /* margin-left: 350px; */
     position: relative;
     left: 600px;
     position: relative;
