@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+/* Styles for the Table */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  color: #0f0f0f;
+}
+
+th {
+  background-color: #636363;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:hover {
+  background-color: #8f8f8f; /* Change this color to whatever you prefer */
+}
+
+/* Icon sizes and padding */
+.icon {
+  width: 24px; /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+  vertical-align: middle;
+  margin-right: 10px;
+}
