@@ -1,47 +1,78 @@
 /* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #00ffaa41; /* Set background to black */
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  color: #ffffff; /* Ensure the text is readable */
+}
+
+/* Styles for the Table Container */
+.table-container {
+  width: 90%;
+  max-width: 1200px;
+  background-color: #9c327c; /* Dark background for the table container */
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Darker shadow for better blending */
+  overflow: hidden;
+  padding: 20px;
 }
 
 /* Styles for the Table */
 table {
-  width: 80%;
+  width: 100%;
   border-collapse: collapse;
-  margin: 20px 0;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 0;
 }
 
 th, td {
   text-align: left;
-  padding: 8px;
-  color: #0f0f0f;
+  padding: 16px;
+  border-bottom: 1px solid #333333; /* Darker border color */
+  color: #dddddd; /* Lighter text color for readability */
 }
 
 th {
-  background-color: #636363;
-  color: black;
+  background-color: #99af4c; /* Green header background */
+  color: #ffffff; /* White text for header */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #442020; /* Dark gray for even rows */
 }
 
 tr:nth-child(odd) {
-  background-color: #ffffff;
+  background-color: #1a1a1a; /* Slightly lighter gray for odd rows */
 }
 
 tr:hover {
-  background-color: #8f8f8f; /* Change this color to whatever you prefer */
+  background-color: #333333; /* Slightly lighter gray for hover effect */
 }
 
 /* Icon sizes and padding */
 .icon {
-  width: 24px; /* Adjust size as needed */
-  height: 24px; /* Adjust size as needed */
+  width: 20px;
+  height: 20px;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  .table-container {
+    padding: 10px;
+  }
+  th, td {
+    padding: 10px;
+  }
 }
